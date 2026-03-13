@@ -33,7 +33,7 @@ O sistema impede o login.
 ### RN Relacionadas
 - RN01
 
-
+---
 
 ## UC02 — Realizar Matrícula de Aluno
 
@@ -68,7 +68,7 @@ Sistema solicita preenchimento dos campos obrigatórios.
 ### RN Relacionadas
 - RN02
 
-
+---
 
 ## UC03 — Atualizar Cadastro de Aluno
 
@@ -102,7 +102,7 @@ Atualizar dados de um aluno.
 ### RN Relacionadas
 - RN02
 
-
+---
 
 ## UC04 — Contratar Plano
 
@@ -136,7 +136,7 @@ Associar um plano ao aluno.
 ### RN Relacionadas
 - RN03
 
-
+---
 
 ## UC05 — Registrar Pagamento
 
@@ -169,7 +169,7 @@ Registrar pagamento do aluno.
 ### RN Relacionadas
 - RN04
 
-
+---
 
 ## UC06 — Liberar Acesso na Catraca
 
@@ -202,7 +202,7 @@ Controlar entrada de alunos.
 ### RN Relacionadas
 - RN05
 
-
+---
 
 ## UC07 — Agendar Aula
 
@@ -235,7 +235,7 @@ Reservar vaga em aula.
 ### RN Relacionadas
 - RN06
 
-
+---
 
 ## UC08 — Cancelar Agendamento
 
@@ -268,7 +268,7 @@ Cancelar reserva de aula.
 ### RN Relacionadas
 - RN07
 
-
+---
 
 ## UC09 — Registrar Presença em Aula
 
@@ -301,7 +301,7 @@ Registrar presença dos alunos.
 ### RN Relacionadas
 - RN08
 
-
+---
 
 ## UC10 — Registrar Avaliação Física
 
@@ -334,9 +334,10 @@ Registrar avaliação física do aluno.
 ### RN Relacionadas
 - RN09
 
-
+---
 
 ## UC11 — Consultar Avaliação Física
+
 ### Ator Principal
 Aluno
 
@@ -347,9 +348,10 @@ Consultar avaliações físicas.
 1. Aluno acessa histórico.
 2. Sistema exibe avaliações.
 
-
+---
 
 ## UC12 — Gerar Relatório Financeiro
+
 ### Ator Principal
 Gerente
 
@@ -360,9 +362,10 @@ Gerar relatório financeiro.
 1. Gerente seleciona relatório.
 2. Sistema gera relatório.
 
-
+---
 
 ## UC13 — Gerar Relatório de Matrículas
+
 ### Ator Principal
 Gerente
 
@@ -373,9 +376,10 @@ Visualizar número de matrículas.
 1. Gerente solicita relatório.
 2. Sistema exibe dados.
 
-
+---
 
 ## UC14 — Gerenciar Planos
+
 ### Ator Principal
 Gerente
 
@@ -386,9 +390,10 @@ Criar ou editar planos.
 1. Gerente acessa planos.
 2. Sistema permite edição.
 
-
+---
 
 ## UC15 — Gerenciar Instrutores
+
 ### Ator Principal
 Gerente
 
@@ -399,9 +404,10 @@ Cadastrar instrutores.
 1. Gerente cadastra instrutor.
 2. Sistema registra.
 
-
+---
 
 ## UC16 — Consultar Frequência
+
 ### Ator Principal
 Gerente
 
@@ -412,9 +418,10 @@ Consultar frequência de alunos.
 1. Gerente acessa relatório.
 2. Sistema mostra frequência.
 
-
+---
 
 ## UC17 — Validar Pagamento
+
 ### Ator Principal
 Sistema
 
@@ -425,9 +432,10 @@ Verificar status de pagamento.
 1. Sistema consulta pagamento.
 2. Sistema valida status.
 
-
+---
 
 ## UC18 — Consultar Agenda de Aulas
+
 ### Ator Principal
 Aluno
 
@@ -438,9 +446,10 @@ Visualizar agenda.
 1. Aluno acessa agenda.
 2. Sistema exibe aulas.
 
-
+---
 
 ## UC19 — Cancelar Plano
+
 ### Ator Principal
 Recepcionista
 
@@ -451,9 +460,10 @@ Cancelar plano de aluno.
 1. Recepcionista seleciona aluno.
 2. Sistema cancela plano.
 
-
+---
 
 ## UC20 — Gerar Relatório de Frequência
+
 ### Ator Principal
 Gerente
 
@@ -463,3 +473,9 @@ Gerar relatório de frequência.
 ### Fluxo Principal
 1. Gerente solicita relatório.
 2. Sistema gera relatório.
+
+---
+
+# Diagrama de Casos de Uso
+
+![Diagrama](DUC_01_Juan.png)
